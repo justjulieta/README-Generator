@@ -1,5 +1,5 @@
 // TODO: Include packages needed for this application
-const inquirer= require('inquirer');
+const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./Develop/utils/generateMarkdown.js');
 
@@ -65,22 +65,23 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(data) {
+function writeToFile(fileName, data) {
     console.log("writing to file")
-    inquirer.prompt(data).then((answers) => {
-    fs.writeFile('README.md', generateMarkdown(data), function(err){
+    fs.writeFile('fileName', generateMarkdown(data), function(err){
         if(err){
-            console.error(err);
+            return console.error(err);
         } else 
         console.log('README successfully created!')
-    })
     })
 }
 
 // TODO: Create a function to initialize app
 function init() {
-        writeToFile(questions);
+    inquierer.promt(questions).then((answers) => {
+        writeToFile(fileName, answers);
+    })
 }
+
 
 // Function call to initialize app
 init();
