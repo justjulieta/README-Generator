@@ -1,7 +1,73 @@
 // TODO: Include packages needed for this application
 
+const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown.js');
+const fs = require('fs');
+
 // TODO: Create an array of questions for user input
-const questions = [];
+const questions = [
+    {
+        type: "input",
+        message: "What's your GitHub username",
+        name: "Github",
+    },
+
+    {
+        type: "input",
+        message: "What's your email?",
+        name: "email",
+    },
+
+    {
+        type: "",
+        message: "",
+        name: ","
+    },
+
+    {
+        type: "",
+        message: "",
+        name: ","
+    },
+
+    {
+        type: "",
+        message: "",
+        name: ","
+    },
+
+    {
+        type: "",
+        message: "",
+        name: ","
+    },
+
+    {
+        type: "",
+        message: "",
+        name: ","
+    },
+
+    {
+        type: "",
+        message: "",
+        name: ","
+    },
+
+    {
+        type: "",
+        message: "",
+        name: ","
+    },
+
+    {
+        type: "",
+        message: "",
+        name: ","
+    },
+
+    
+];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
