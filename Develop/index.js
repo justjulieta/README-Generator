@@ -15,58 +15,51 @@ const questions = [
     {
         type: "input",
         message: "What's your email?",
-        name: "email",
+        name: "Email",
     },
 
     {
-        type: "",
-        message: "",
-        name: ","
+        type: "input",
+        message: "What's the title of your project?",
+        name: "Project Title"
     },
 
     {
-        type: "",
-        message: "",
-        name: ","
+        type: "input",
+        message: "Please enter a description of your project.",
+        name: "Description of Project",
     },
 
     {
-        type: "",
-        message: "",
-        name: ","
+        type: "input",
+        message: "Please enter in usage information for your project.",
+        name: "Usage Information",
     },
 
     {
-        type: "",
-        message: "",
-        name: ","
+        type: "input",
+        message: "Please enter installation instructions for your project.",
+        name: "Installation Instructions",
     },
 
     {
-        type: "",
-        message: "",
-        name: ","
+        type: "input",
+        message: "Please select the license for your project.",
+        name: "License",
     },
 
     {
-        type: "",
-        message: "",
-        name: ","
+        type: "input",
+        message: "Please enter enter contribution guidelines for your project.",
+        name: "Contribution Guidelines",
     },
 
     {
-        type: "",
-        message: "",
-        name: ","
+        type: "input",
+        message: "Please enter test instructions for your project.",
+        name: "Test",
     },
 
-    {
-        type: "",
-        message: "",
-        name: ","
-    },
-
-    
 ];
 
 // TODO: Create a function to write README file
