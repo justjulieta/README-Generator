@@ -65,10 +65,10 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, function(err) {
+function generateREADME(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
         if(err){
-            HTMLFormControlsCollection.log(err);
+            console.log(err);
         } else 
         console.log('README successfully created!')
     })
@@ -76,8 +76,10 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions).then(function (data){
-        writeToFile("README.md", generateMarkdown(data));
+    inquirer.prompt(questions)
+    .then(function (userData) {
+        console.log(userData)
+        generateREADME("README.md", generateMarkdown(userData));
     })
 }
 
