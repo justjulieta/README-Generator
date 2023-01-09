@@ -2,7 +2,7 @@
   
 
   ## Description
-  An application to help users create README files faster.
+  An application that helps users create README files.
 
   ## Table of Contents
   - [GitHub](#GitHub)
@@ -17,7 +17,7 @@
   - [Questions](#Questions)
 
   ## GitHub
-  undefined
+  justjulieta
 
   ## Email
   julieta3@pdx.edu
@@ -26,13 +26,13 @@
   README Generator
 
   ## Description
-  An application to help users create README files faster.
+  An application that helps users create README files.
 
   ## Usage
-  For anyone to use.
+  n/a
 
   ## Installation
-  Clone repo and follow simple instructions.
+  Clone repo and follow instructions.
 
   ## License
   ## This Project is covered under the following:
@@ -40,15 +40,12 @@
 
   ## Contribution
   Created by: 
-  undefined
-  <br>
-  myself.
+  justjulieta
 
   ## Test
-  n/a
+  none
 
   ## Questions
-  If there are any more questions regarding anything related to this application, please contact me through:
+  If there are any more questions regarding anything related to this application, please contact me through email:
   <br> 
-  Email: 
   julieta3@pdx.edu
