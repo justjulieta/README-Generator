@@ -20,25 +20,25 @@ const questions = [
     {
         type: "input",
         message: "What's the title of your project?",
-        name: "Project Title"
+        name: "Title"
     },
 
     {
         type: "input",
         message: "Please enter a description of your project.",
-        name: "Description of Project",
+        name: "Description",
     },
 
     {
         type: "input",
         message: "Please enter in usage information for your project.",
-        name: "Usage Information",
+        name: "Usage",
     },
 
     {
         type: "input",
         message: "Please enter installation instructions for your project.",
-        name: "Installation Instructions",
+        name: "Installation",
     },
 
     {
@@ -53,7 +53,7 @@ const questions = [
     {
         type: "input",
         message: "Please enter enter contribution guidelines for your project.",
-        name: "Contribution Guidelines",
+        name: "Contribution",
     },
 
     {
