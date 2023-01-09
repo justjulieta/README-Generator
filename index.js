@@ -68,7 +68,6 @@ const questions = [
 function writeToFile(data) {
     console.log("writing to file")
     inquirer.prompt(data).then((answers) => {
-        const { GitHub, Email, Title, Description, Usage, Installation, License, Contribution } = answers;
     fs.writeFile('README.md', generateMarkdown(data), function(err){
         if(err){
             console.error(err);
