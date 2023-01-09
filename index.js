@@ -66,9 +66,10 @@ const questions = [
 
 // TODO: Create a function to write README file
 function generateREADME(fileName, data) {
-    fs.writeFile(fileName, data, (err) => {
+    console.log("Creating README file...")
+    fs.writeFile(fileName, generateMarkdown(data), (err) => {
         if(err){
-            console.log(err);
+            return console.log(err);
         } else 
         console.log('README successfully created!')
     })
@@ -77,12 +78,10 @@ function generateREADME(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then(function (userData) {
-        console.log(userData)
-        generateREADME("README.md", generateMarkdown(userData));
+    .then((answers) => {
+        generateREADME('./README.md', answers);
     })
 }
-
 
 // Function call to initialize app
 init();
