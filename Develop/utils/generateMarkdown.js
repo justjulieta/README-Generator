@@ -70,18 +70,18 @@ function renderLicenseSection(license) {
   if(license == 'none') 
   return '';
 
-  return '## License, this Project is covered under the following: ${license}';
+  return '## This Project is covered under the following:';
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   const renderedLicenseBadge = renderLicenseBadge(data.license) + renderLicenseLink(data.license);
   const licenseSection = renderLicenseSection(data.license)
-  return `# ${data.title}
+  return `# ${data.Title}
   ${renderedLicenseBadge}
 
   ## Description
-  ${data.description}
+  ${data.Description}
 
   ## Table of Contents
   - [GitHub](#GitHub)
@@ -120,18 +120,14 @@ function generateMarkdown(data) {
   ## Contribution
   Created by: 
   ${data.GitHub}
-  <br>
-  ${data.Contribution}
 
   ## Test
   ${data.Test}
 
   ## Questions
-  If there are any more questions regarding anything related to this application, please contact me through:
+  If there are any more questions regarding anything related to this application, please contact me through email:
   <br> 
-  Email: ${data.email}
-  <br>
-  GitHub: ${data.GitHub}
+  ${data.Email}
 `;
 }
 

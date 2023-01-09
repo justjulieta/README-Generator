@@ -1,34 +1,54 @@
-# Professional README Generator
+# README Generator
+  
 
-## User Story
+  ## Description
+  An application to help users create README files faster.
 
-```md
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
-```
+  ## Table of Contents
+  - [GitHub](#GitHub)
+  - [Email](#Email)
+  - [Title](#Title)
+  - [Description](#Description)
+  - [Usage](#Usage)
+  - [Installation](#installation)
+  - [License](#license)
+  - [Contribution](#Contribution)
+  - [Test](#Test)
+  - [Questions](#Questions)
 
-## Acceptance Criteria
+  ## GitHub
+  undefined
 
-```md
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
-```
+  ## Email
+  julieta3@pdx.edu
 
-## 
+  ## Title
+  README Generator
 
+  ## Description
+  An application to help users create README files faster.
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+  ## Usage
+  For anyone to use.
+
+  ## Installation
+  Clone repo and follow simple instructions.
+
+  ## License
+  ## This Project is covered under the following:
+  none
+
+  ## Contribution
+  Created by: 
+  undefined
+  <br>
+  myself.
+
+  ## Test
+  n/a
+
+  ## Questions
+  If there are any more questions regarding anything related to this application, please contact me through:
+  <br> 
+  Email: 
+  julieta3@pdx.edu
