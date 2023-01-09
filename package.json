@@ -11,4 +11,13 @@
   "dependencies": {
     "inquirer": "^8.2.4"
   }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justjulieta/README-Generator"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/justjulieta/README-Generator/issues"
+  }
 }
+
